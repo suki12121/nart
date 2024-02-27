@@ -1,0 +1,144 @@
+.main-bg {
+  background-image: linear-gradient(#e2e1dc, #dbcb96);
+  padding: 10px;
+  justify-content: center;
+}
+
+.first-bg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.trophy-bg {
+  padding-top: 80px;
+  height: 100vh;
+  width: 30vw;
+}
+.logo-img-bg {
+  height: 20vh;
+  width: 40vw;
+}
+.cheif-img {
+  height: 50vh;
+  width: 65vw;
+}
+.second-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  padding-left: 30px;
+}
+.pipe-img {
+  height: 50vh;
+}
+.break {
+  border-top: 2px solid red; /* Add a red border on the top side to create the horizontal line */
+  width: 100%; /* Set the width to fill the container */
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.passage {
+  padding-left: 400px;
+}
+.contact-bg {
+  display: flex;
+  flex-direction: row;
+  height: 13vh;
+  background-color: red;
+  margin-left: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon {
+  font-size: 30px;
+  color: white;
+}
+
+.contact-passage {
+  color: whitesmoke;
+}
+.span-p {
+  color: white;
+  font-weight: bold;
+}
+.information-bg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 16vw;
+}
+@media screen and (max-width: 768px) {
+  .main-bg {
+    background-image: linear-gradient(#e2e1dc, #dbcb96);
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .first-bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .trophy-bg {
+    padding-top: 80px;
+    height: 70vh;
+    width: 25vw;
+  }
+  .logo-img-bg {
+    height: 20vh;
+    width: 30vw;
+  }
+  .cheif-img {
+    height: 40vh;
+    width: 45vw;
+  }
+  .second-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    padding-left: 30px;
+  }
+  .pipe-img {
+    height: 50vh;
+  }
+  .break {
+    border-top: 2px solid red; /* Add a red border on the top side to create the horizontal line */
+    width: 100%; /* Set the width to fill the container */
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .passage {
+    padding-left: 20px;
+  }
+  .contact-bg {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    align-items: center;
+    padding: 10px;
+  }
+  .icon {
+    font-size: 20px;
+    color: white;
+  }
+
+  .contact-passage {
+    color: whitesmoke;
+  }
+  .span-p {
+    color: white;
+    font-weight: bold;
+  }
+  .information-bg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 38vw;
+    height: 3vh;
+  }
+}
